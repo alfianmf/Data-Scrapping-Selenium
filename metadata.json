@@ -1,0 +1,175 @@
+{
+    "name": "Kumpulan Tempat Wisata di Kabupaten Bandung Barat",
+    "source": "https://visitkbb.bandungbaratkab.go.id/destinasi-wisata/wisata-alam",
+    "updated_by": "2022-01-30 13:53:35",
+    "data": [
+        {
+            "id": 0,
+            "name": "Curug Malela",
+            "url": "https://goo.gl/maps/guUVLdsVvd1AXEfGA",
+            "reviews_count": 949
+        },
+        {
+            "id": 1,
+            "name": "Curug Layung Camp Situ Lembang",
+            "url": "https://goo.gl/maps/WaQSgkZ7sontPe3dA",
+            "reviews_count": 551
+        },
+        {
+            "id": 2,
+            "name": "Curug Tilu Leuwi Opat",
+            "url": "https://goo.gl/maps/A1Z2Lj4vWSYFXQv97",
+            "reviews_count": 1314
+        },
+        {
+            "id": 3,
+            "name": "Curug Cimahi / Curug Pelangi",
+            "url": "https://goo.gl/maps/Hm1DFjoXRnJW15BA7",
+            "reviews_count": 741
+        },
+        {
+            "id": 4,
+            "name": "Dusun Bambu",
+            "url": "https://goo.gl/maps/LsYfbp61UnMNwxEs9",
+            "reviews_count": 27773
+        },
+        {
+            "id": 5,
+            "name": "Taman Hutan Jayagiri Lembang",
+            "url": "https://goo.gl/maps/kCC3bEY2KYPUgCCm7",
+            "reviews_count": 308
+        },
+        {
+            "id": 6,
+            "name": "Sarae Hills",
+            "url": "https://goo.gl/maps/v69tBfWRBzWNF5126",
+            "reviews_count": 1774
+        },
+        {
+            "id": 7,
+            "name": "Kebun Begonia Lembang",
+            "url": "https://goo.gl/maps/pZBZZQs9FtcbFSRZ9",
+            "reviews_count": 12533
+        },
+        {
+            "id": 8,
+            "name": "The Lodge Maribaya",
+            "url": "https://goo.gl/maps/9Yux9vdshTNshof7A",
+            "reviews_count": 21366 
+        },
+        {
+            "id": 9,
+            "name": "Terminal Wisata Grafika Cikole",
+            "url": "https://goo.gl/maps/uwySrMiJpia5vY7P9",
+            "reviews_count": 15161
+        },
+        {
+            "id": 10,
+            "name": "Orchid Forest Cikole",
+            "url": "https://goo.gl/maps/tgcENNGGFeYQrqb4A",
+            "reviews_count": 26655 
+        },
+        {
+            "id": 11,
+            "name": "Taman Lembah DEWATA",
+            "url": "https://goo.gl/maps/GcdvpH1pKeDMHAzP7",
+            "reviews_count": 2129
+        },
+        {
+            "id": 12,
+            "name": "Gunung Hawu",
+            "url": "https://goo.gl/maps/nSCaimHxC2Tb67vc7",
+            "reviews_count": 55
+        },
+        {
+            "id": 13,
+            "name": "Sanghyang Kenit",
+            "url": "https://goo.gl/maps/v5GAqqYimk9PRccB6",
+            "reviews_count": 565
+        },
+        {
+            "id": 14,
+            "name": "Bukit Senyum",
+            "url": "https://goo.gl/maps/C7j2i9qgbL1wqHDF9",
+            "reviews_count": 604
+        },
+        {
+            "id": 15,
+            "name": "Ciwangun Indah Camp (CIC)",
+            "url": "https://goo.gl/maps/1CsW5uGwYgZsfWdb9",
+            "reviews_count": 1105
+        },
+        {
+            "id": 16,
+            "name": "Curug Panganten",
+            "url": "https://goo.gl/maps/qwYVh9eQJE3rJqUy5",
+            "reviews_count": 83
+        },
+        {
+            "id": 17,
+            "name": "Gunung Putri Lembang",
+            "url": "https://goo.gl/maps/hXjYeXfaMKtSXipj8",
+            "reviews_count": 2353
+        },
+        {
+            "id": 18,
+            "name": "Situ Lembang Dano",
+            "url": "https://goo.gl/maps/Xk4QfhrCgBLMjvdc6",
+            "reviews_count": 89
+        },
+        {
+            "id": 19,
+            "name": "Curug Sawer Cililin",
+            "url": "https://goo.gl/maps/1Vg8QHktv7yAH75Z7",
+            "reviews_count": 334
+        },
+        {
+            "id": 20,
+            "name": "Stone Garden",
+            "url": "https://goo.gl/maps/9f1ojzcpiBwpFB7q8",
+            "reviews_count": 3593
+        },
+        {
+            "id": 21,
+            "name": "Curug Halimun",
+            "url": "https://goo.gl/maps/o7SjzCfg3q2SPzQw6",
+            "reviews_count": 90
+        },
+        {
+            "id": 22,
+            "name": "Situ Ciburuy",
+            "url": "https://goo.gl/maps/rkAxyhCfXedpk8yg8",
+            "reviews_count": 246
+        },
+        {
+            "id": 23,
+            "name": "Sirtwo Island Saguling",
+            "url": "https://goo.gl/maps/zXxeyco7Zqt5VQ3i9",
+            "reviews_count": 8
+        },
+        {
+            "id": 24,
+            "name": "Gunung Tangkuban Parahu",
+            "url": "https://goo.gl/maps/c4RqAeiJ4FKpGU2H6",
+            "reviews_count": 22964
+        },
+        {
+            "id": 25,
+            "name": "Floating Market Lembang",
+            "url": "https://goo.gl/maps/wx47wnDDjxPnK1Ar6",
+            "reviews_count": 47610
+        },
+        {
+            "id": 26,
+            "name": "Curug Maribaya",
+            "url": "https://goo.gl/maps/GWXGqSeNz6FrsCjp8",
+            "reviews_count": 4603
+        },
+        {
+            "id": 27,
+            "name": "Sanghyang Heuleut",
+            "url": "https://goo.gl/maps/hnYKFwVdsrPPoWeE6",
+            "reviews_count": 948
+        }
+    ]
+}
