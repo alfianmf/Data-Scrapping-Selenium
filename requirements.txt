@@ -1,0 +1,4 @@
+selenium==4.5.0
+pyyaml==5.4.1
+pymongo==4.3.3
+emoji==1.7.0

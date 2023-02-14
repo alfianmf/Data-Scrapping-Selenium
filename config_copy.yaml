@@ -1,0 +1,3 @@
+mongo_client: "mongodb://localhost:27017/"
+database_name: "dbscrap_gmaps"
+collection_name: "queue_review"
