@@ -9,16 +9,16 @@ if __name__ == '__main__':
     f = open('metadata.json')
     metadata = json.load(f)
 
-    location = metadata['data'][4]['name']
-    location_url = metadata['data'][4]['url']
-    reviews_count = metadata['data'][4]['reviews_count']
+    location = metadata['data'][8]['name']
+    location_url = metadata['data'][8]['url']
+    reviews_count = metadata['data'][8]['reviews_count']
 
     f.close()
     # reviews_count = 12533
-    loop_optimizer = 110 if reviews_count > 1000 else abs(int(reviews_count // 10) - 1)
+    loop_optimizer = 130 if reviews_count > 1000 else abs(int(reviews_count // 10) - 1)
     # print(loop_optimizer)
 
-    wd = WebDriver("C:\\edgedriver_win64\\msedgedriver.exe")
+    wd = WebDriver("msedgedriver.exe")
     wd.scrape(location, location_url, loop_optimizer)
 
     # md = MongoDBConfig('config.yaml')
