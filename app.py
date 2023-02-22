@@ -1,6 +1,5 @@
 import json
 
-from scrapper.sqlite_config import SQLiteConfig
 from scrapper.mongodb_config import MongoDBConfig
 from scrapper.webdriver_config import WebDriver
 
@@ -10,13 +9,17 @@ if __name__ == '__main__':
     f = open('metadata.json')
     metadata = json.load(f)
 
-    location = metadata['data'][0]['name']
-    location_url = metadata['data'][0]['url']
-  
+    location = metadata['data'][4]['name']
+    location_url = metadata['data'][4]['url']
+    reviews_count = metadata['data'][4]['reviews_count']
+
     f.close()
+    # reviews_count = 12533
+    loop_optimizer = 110 if reviews_count > 1000 else abs(int(reviews_count // 10) - 1)
+    # print(loop_optimizer)
 
     wd = WebDriver("C:\\edgedriver_win64\\msedgedriver.exe")
-    wd.scrape(location, location_url)
+    wd.scrape(location, location_url, loop_optimizer)
 
     # md = MongoDBConfig('config.yaml')
     # data = md.find_one('d06c3ec2ba9a4a83b1f50a84b8be0146')
@@ -25,13 +28,4 @@ if __name__ == '__main__':
 
     # date = 'setahun lalu'
     # print(process_date(date))
-
-    # sql = SQLiteConfig('gmaps_review.db', 'tb_review')
-    # sql.insert_data('tb_review', {
-    #     'location': 'Curug Malela', 
-    #     'text': 'Coba', 
-    #     'rating': 3, 
-    #     'datetime': '2022-01-03 21:54:54'
-    #     })
-    # sql.close_conn()
     
