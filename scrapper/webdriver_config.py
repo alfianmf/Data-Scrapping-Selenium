@@ -39,7 +39,7 @@ class WebDriver:
         time.sleep(1)
 
     def scroll_page(self, loop: int = 1):
-        for _ in range(loop):
+        for _ in tqdm(range(loop)):
             expand_review = self.driver.find_elements(By.CLASS_NAME, "w8nwRe")
 
             for i in expand_review:

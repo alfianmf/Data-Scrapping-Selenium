@@ -49,3 +49,6 @@ class MongoDBConfig():
     
     def find_all(self, skip:int=0, limit:int=100):
         return list(self.collection.find().limit(limit))
+    
+    def count_data(self, query):
+        return len(list(self.collection.find(query)))

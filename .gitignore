@@ -2,4 +2,5 @@ config.yaml
 gmaps_review.db
 gmaps_review.db-journal
 status.json
+log.json
 /scrapper/__pycache__/*
